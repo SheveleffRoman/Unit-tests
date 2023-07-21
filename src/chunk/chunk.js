@@ -7,7 +7,7 @@
 // _.chunk(['a', 'b', 'c', 'd'], 3);
 // => [['a', 'b', 'c'], ['d']]
 
-function chunkArray(array, size) {
+const chunkArray = (array, size) => {
     if (!Array.isArray(array) || size <= 0) {
       throw new Error('Invalid input: "array" should be an array and "size" should be a positive number.');
     }
