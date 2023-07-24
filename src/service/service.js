@@ -14,7 +14,20 @@ const service = {
             service.push(temp, arr[i]);
         }
         return temp;
-
+    },
+    filter: (arr, callback) => {
+        let result = [];
+        for (let i = 0; i<arr.length; i++) {
+          if (callback(arr[i])) {
+            result[result.length] = arr[i];
+          }
+        }
+        return result;
+    },
+    forEach(arr, callback) {
+        for (let i = 0; i < arr.length; i += 1) {
+            callback(arr[i], i, arr);
+        }
     }
 }
 
