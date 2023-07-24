@@ -10,11 +10,11 @@ function zip(...args) {
   let result = [];
   let len = args[0].length;
   for (let i = 0; i < len; i++) {
-    let presult = [];
+    let result1 = [];
     for (let y = 0; y < args.length; y++) {
-      service.push(presult, args[y][i]);
+      service.push(result1, args[y][i]);
     }
-    service.push(result, presult);
+    service.push(result, result1);
   }
   return result;
 }
