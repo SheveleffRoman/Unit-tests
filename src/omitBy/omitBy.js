@@ -20,8 +20,4 @@ function omitBy(object, predicate) {
   }
 
 module.exports = omitBy;
-//   // Пример использования
-//   const object = { 'a': 1, 'b': '2', 'c': 3 };
-//   const result = omitBy(object, value => typeof value === 'number');
-//   console.log(result); // Output: { 'b': '2' }
   
