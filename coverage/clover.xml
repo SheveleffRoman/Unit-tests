@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1690279705406" clover="3.2.0">
-  <project timestamp="1690279705407" name="All files">
-    <metrics statements="179" coveredstatements="177" conditionals="116" coveredconditionals="108" methods="20" coveredmethods="20" elements="315" coveredelements="305" complexity="0" loc="179" ncloc="179" packages="12" files="12" classes="12"/>
+<coverage generated="1690284647432" clover="3.2.0">
+  <project timestamp="1690284647433" name="All files">
+    <metrics statements="219" coveredstatements="218" conditionals="139" coveredconditionals="132" methods="25" coveredmethods="25" elements="383" coveredelements="375" complexity="0" loc="219" ncloc="219" packages="17" files="17" classes="17"/>
     <package name="chunk">
       <metrics statements="13" coveredstatements="13" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
       <file name="chunk.js" path="/Users/anastasia/Desktop/Unit-tests/src/chunk/chunk.js">
@@ -197,32 +197,91 @@
         <line num="43" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="service">
-      <metrics statements="22" coveredstatements="21" conditionals="12" coveredconditionals="11" methods="5" coveredmethods="5"/>
-      <file name="service.js" path="/Users/anastasia/Desktop/Unit-tests/src/service/service.js">
-        <metrics statements="22" coveredstatements="21" conditionals="12" coveredconditionals="11" methods="5" coveredmethods="5"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="3" count="70" type="stmt"/>
-        <line num="6" count="13" type="stmt"/>
-        <line num="7" count="13" type="cond" truecount="1" falsecount="1"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="10" count="13" type="cond" truecount="4" falsecount="0"/>
-        <line num="11" count="9" type="stmt"/>
-        <line num="13" count="13" type="stmt"/>
-        <line num="14" count="16" type="stmt"/>
-        <line num="16" count="13" type="stmt"/>
-        <line num="19" count="3" type="stmt"/>
+    <package name="omit">
+      <metrics statements="12" coveredstatements="12" conditionals="11" coveredconditionals="11" methods="1" coveredmethods="1"/>
+      <file name="omit.js" path="/Users/anastasia/Desktop/Unit-tests/src/omit/omit.js">
+        <metrics statements="12" coveredstatements="12" conditionals="11" coveredconditionals="11" methods="1" coveredmethods="1"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="5" type="cond" truecount="5" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
         <line num="20" count="3" type="stmt"/>
-        <line num="21" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="9" type="cond" truecount="4" falsecount="0"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="omitBy">
+      <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="omitBy.js" path="/Users/anastasia/Desktop/Unit-tests/src/omitBy/omitBy.js">
+        <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="15" count="12" type="cond" truecount="4" falsecount="0"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
-        <line num="25" count="3" type="stmt"/>
-        <line num="28" count="3" type="stmt"/>
-        <line num="29" count="6" type="stmt"/>
-        <line num="33" count="30" type="stmt"/>
-        <line num="34" count="39" type="cond" truecount="4" falsecount="0"/>
-        <line num="35" count="25" type="stmt"/>
-        <line num="38" count="5" type="stmt"/>
-        <line num="42" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="pick">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="pick.js" path="/Users/anastasia/Desktop/Unit-tests/src/pick/pick.js">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="pickBy">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="pickBy.js" path="/Users/anastasia/Desktop/Unit-tests/src/pickBy/pickBy.js">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="15" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="9" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="service">
+      <metrics statements="22" coveredstatements="22" conditionals="12" coveredconditionals="12" methods="5" coveredmethods="5"/>
+      <file name="service.js" path="/Users/anastasia/Desktop/Unit-tests/src/service/service.js">
+        <metrics statements="22" coveredstatements="22" conditionals="12" coveredconditionals="12" methods="5" coveredmethods="5"/>
+        <line num="1" count="15" type="stmt"/>
+        <line num="3" count="78" type="stmt"/>
+        <line num="6" count="17" type="stmt"/>
+        <line num="7" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="16" type="cond" truecount="4" falsecount="0"/>
+        <line num="11" count="10" type="stmt"/>
+        <line num="13" count="16" type="stmt"/>
+        <line num="14" count="23" type="stmt"/>
+        <line num="16" count="16" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="21" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="29" count="9" type="stmt"/>
+        <line num="33" count="64" type="stmt"/>
+        <line num="34" count="106" type="cond" truecount="4" falsecount="0"/>
+        <line num="35" count="51" type="stmt"/>
+        <line num="38" count="13" type="stmt"/>
+        <line num="42" count="15" type="stmt"/>
       </file>
     </package>
     <package name="take">
@@ -235,6 +294,17 @@
         <line num="20" count="1" type="stmt"/>
         <line num="22" count="5" type="cond" truecount="2" falsecount="0"/>
         <line num="25" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="toPairs">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="toPairs.js" path="/Users/anastasia/Desktop/Unit-tests/src/toPairs/toPairs.js">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="6" type="cond" truecount="4" falsecount="0"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
       </file>
     </package>
     <package name="zip">
