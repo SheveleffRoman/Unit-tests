@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1690209901292" clover="3.2.0">
-  <project timestamp="1690209901293" name="All files">
-    <metrics statements="165" coveredstatements="163" conditionals="102" coveredconditionals="95" methods="18" coveredmethods="18" elements="285" coveredelements="276" complexity="0" loc="165" ncloc="165" packages="11" files="11" classes="11"/>
+<coverage generated="1690279705406" clover="3.2.0">
+  <project timestamp="1690279705407" name="All files">
+    <metrics statements="179" coveredstatements="177" conditionals="116" coveredconditionals="108" methods="20" coveredmethods="20" elements="315" coveredelements="305" complexity="0" loc="179" ncloc="179" packages="12" files="12" classes="12"/>
     <package name="chunk">
       <metrics statements="13" coveredstatements="13" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
       <file name="chunk.js" path="/Users/anastasia/Desktop/Unit-tests/src/chunk/chunk.js">
@@ -181,11 +181,27 @@
         <line num="62" count="1" type="stmt"/>
       </file>
     </package>
+    <package name="merge">
+      <metrics statements="10" coveredstatements="10" conditionals="10" coveredconditionals="9" methods="1" coveredmethods="1"/>
+      <file name="merge.js" path="/Users/anastasia/Desktop/Unit-tests/src/merge/merge.js">
+        <metrics statements="10" coveredstatements="10" conditionals="10" coveredconditionals="9" methods="1" coveredmethods="1"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="22" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="30" count="11" type="stmt"/>
+        <line num="31" count="15" type="cond" truecount="1" falsecount="1"/>
+        <line num="32" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="10" type="stmt"/>
+        <line num="35" count="5" type="stmt"/>
+        <line num="40" count="11" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="service">
-      <metrics statements="18" coveredstatements="17" conditionals="8" coveredconditionals="7" methods="4" coveredmethods="4"/>
+      <metrics statements="22" coveredstatements="21" conditionals="12" coveredconditionals="11" methods="5" coveredmethods="5"/>
       <file name="service.js" path="/Users/anastasia/Desktop/Unit-tests/src/service/service.js">
-        <metrics statements="18" coveredstatements="17" conditionals="8" coveredconditionals="7" methods="4" coveredmethods="4"/>
-        <line num="1" count="9" type="stmt"/>
+        <metrics statements="22" coveredstatements="21" conditionals="12" coveredconditionals="11" methods="5" coveredmethods="5"/>
+        <line num="1" count="10" type="stmt"/>
         <line num="3" count="70" type="stmt"/>
         <line num="6" count="13" type="stmt"/>
         <line num="7" count="13" type="cond" truecount="1" falsecount="1"/>
@@ -202,7 +218,11 @@
         <line num="25" count="3" type="stmt"/>
         <line num="28" count="3" type="stmt"/>
         <line num="29" count="6" type="stmt"/>
-        <line num="34" count="9" type="stmt"/>
+        <line num="33" count="30" type="stmt"/>
+        <line num="34" count="39" type="cond" truecount="4" falsecount="0"/>
+        <line num="35" count="25" type="stmt"/>
+        <line num="38" count="5" type="stmt"/>
+        <line num="42" count="10" type="stmt"/>
       </file>
     </package>
     <package name="take">
