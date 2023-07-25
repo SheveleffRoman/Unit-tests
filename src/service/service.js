@@ -28,6 +28,14 @@ const service = {
         for (let i = 0; i < arr.length; i += 1) {
             callback(arr[i], i, arr);
         }
+    },
+    hasProp(obj, property) {
+        for (const key in obj) {
+            if (obj.hasOwnProperty(key) && key === property) {
+              return true;
+            }
+          }
+          return false;
     }
 }
 
